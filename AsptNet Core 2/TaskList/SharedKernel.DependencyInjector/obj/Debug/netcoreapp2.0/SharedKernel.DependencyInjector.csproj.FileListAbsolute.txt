@@ -1,0 +1,13 @@
+c:\users\check-in\source\repos\TaskList\SharedKernel.DependencyInjector\bin\Debug\netcoreapp2.0\SharedKernel.DependencyInjector.deps.json
+c:\users\check-in\source\repos\TaskList\SharedKernel.DependencyInjector\bin\Debug\netcoreapp2.0\SharedKernel.DependencyInjector.dll
+c:\users\check-in\source\repos\TaskList\SharedKernel.DependencyInjector\obj\Debug\netcoreapp2.0\SharedKernel.DependencyInjector.csprojResolveAssemblyReference.cache
+c:\users\check-in\source\repos\TaskList\SharedKernel.DependencyInjector\obj\Debug\netcoreapp2.0\SharedKernel.DependencyInjector.csproj.CoreCompileInputs.cache
+c:\users\check-in\source\repos\TaskList\SharedKernel.DependencyInjector\obj\Debug\netcoreapp2.0\SharedKernel.DependencyInjector.AssemblyInfoInputs.cache
+c:\users\check-in\source\repos\TaskList\SharedKernel.DependencyInjector\obj\Debug\netcoreapp2.0\SharedKernel.DependencyInjector.AssemblyInfo.cs
+c:\users\check-in\source\repos\TaskList\SharedKernel.DependencyInjector\bin\Debug\netcoreapp2.0\SharedKernel.DependencyInjector.pdb
+c:\users\check-in\source\repos\TaskList\SharedKernel.DependencyInjector\bin\Debug\netcoreapp2.0\SharedKernel.Domain.dll
+c:\users\check-in\source\repos\TaskList\SharedKernel.DependencyInjector\bin\Debug\netcoreapp2.0\SharedKernel.EntityFramework.dll
+c:\users\check-in\source\repos\TaskList\SharedKernel.DependencyInjector\bin\Debug\netcoreapp2.0\SharedKernel.Domain.pdb
+c:\users\check-in\source\repos\TaskList\SharedKernel.DependencyInjector\bin\Debug\netcoreapp2.0\SharedKernel.EntityFramework.pdb
+c:\users\check-in\source\repos\TaskList\SharedKernel.DependencyInjector\obj\Debug\netcoreapp2.0\SharedKernel.DependencyInjector.dll
+c:\users\check-in\source\repos\TaskList\SharedKernel.DependencyInjector\obj\Debug\netcoreapp2.0\SharedKernel.DependencyInjector.pdb

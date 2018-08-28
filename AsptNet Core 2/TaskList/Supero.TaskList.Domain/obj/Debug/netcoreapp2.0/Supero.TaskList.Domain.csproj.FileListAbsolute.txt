@@ -1,0 +1,11 @@
+c:\users\check-in\source\repos\TaskList\Supero.TaskList.Domain\bin\Debug\netcoreapp2.0\Supero.TaskList.Domain.deps.json
+c:\users\check-in\source\repos\TaskList\Supero.TaskList.Domain\bin\Debug\netcoreapp2.0\Supero.TaskList.Domain.dll
+c:\users\check-in\source\repos\TaskList\Supero.TaskList.Domain\bin\Debug\netcoreapp2.0\Supero.TaskList.Domain.pdb
+c:\users\check-in\source\repos\TaskList\Supero.TaskList.Domain\obj\Debug\netcoreapp2.0\Supero.TaskList.Domain.csproj.CoreCompileInputs.cache
+c:\users\check-in\source\repos\TaskList\Supero.TaskList.Domain\obj\Debug\netcoreapp2.0\Supero.TaskList.Domain.AssemblyInfoInputs.cache
+c:\users\check-in\source\repos\TaskList\Supero.TaskList.Domain\obj\Debug\netcoreapp2.0\Supero.TaskList.Domain.AssemblyInfo.cs
+c:\users\check-in\source\repos\TaskList\Supero.TaskList.Domain\obj\Debug\netcoreapp2.0\Supero.TaskList.Domain.dll
+c:\users\check-in\source\repos\TaskList\Supero.TaskList.Domain\obj\Debug\netcoreapp2.0\Supero.TaskList.Domain.pdb
+c:\users\check-in\source\repos\TaskList\Supero.TaskList.Domain\obj\Debug\netcoreapp2.0\Supero.TaskList.Domain.csprojResolveAssemblyReference.cache
+c:\users\check-in\source\repos\TaskList\Supero.TaskList.Domain\bin\Debug\netcoreapp2.0\SharedKernel.Domain.dll
+c:\users\check-in\source\repos\TaskList\Supero.TaskList.Domain\bin\Debug\netcoreapp2.0\SharedKernel.Domain.pdb

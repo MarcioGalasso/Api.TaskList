@@ -1,0 +1,27 @@
+.header-menu{
+    margin-top: -20px;
+    right: 25px;
+    position: absolute;
+}
+
+.username {
+    margin-bottom: 0px;
+    margin-left: 10px;
+    line-height: 44px;
+    font-size: 14px;
+}
+.menu{
+    list-style:none; 
+    border:1px solid #c0c0c0; 
+    float:left; 
+    }
+
+
+
+
+
+.avatar {
+    width: 40px;
+    border-radius: 20px;
+    max-height: 40px;
+}

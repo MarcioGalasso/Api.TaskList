@@ -1,0 +1,31 @@
+<div *ngIf="!destroy" class="col-md-12 row">
+    
+        <div class="row col-md-4">
+            <mat-form-field >
+                <mat-label>Coluna</mat-label>
+                <mat-select (selectionChange)="createValueComponente($event.value)" [(ngModel)]="propertyName" >
+                    <mat-option *ngFor="let item of propertySearch;" [value]="item">{{item.title}}</mat-option>
+                </mat-select>
+            </mat-form-field>
+          
+        </div>
+        <div class=" col-md-3"> 
+          <mat-form-field >
+            <mat-label>Condição</mat-label>
+            <mat-select  [value]="clausule" (selectionChange)="afterSelectClausule($event.value)" [(ngModel)]="clausule" >
+                <mat-option *ngFor="let item of clausuleList;" [value]="item">{{item.title}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+      </div>
+      <div class=" col-md-4"> 
+        <template #itemValue >
+
+        </template>
+        
+        </div>
+        <div class=" col-md-1 padding-top-22"> 
+            <i (click)="destroyComponent()" class="material-icons">close </i>
+        
+        </div>
+    
+</div>

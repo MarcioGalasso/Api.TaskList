@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SharedKernel.Api\SharedKernel.Api.csproj" />
+    <ProjectReference Include="..\SharedKernel.DependencyInjector\SharedKernel.DependencyInjector.csproj" />
+    <ProjectReference Include="..\SharedKernel.Domain\SharedKernel.Domain.csproj" />
+    <ProjectReference Include="..\SharedKernel.EntityFramework\SharedKernel.EntityFramework.csproj" />
+    <ProjectReference Include="..\Supero.TaskList.Domain\Supero.TaskList.Domain.csproj" />
+    <ProjectReference Include="..\Supero.TaskList.Maps\Supero.TaskList.Maps.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,46 @@
+<div id="login">
+    <div id="content">
+        <div class="split left">
+            <div class="centered">
+                <div class="mb-50">
+                        
+                </div>
+                <div class="login-div">
+                    <h4> welcome </h4>
+                    <p class="little-text mb-50">Login</p>
+                    <form #frm="ngForm" (ngSubmit)="onSubmit(frm)">
+                      
+                        <div class="login-matinput">
+                            <mat-form-field class="full-width">
+                                <input name="userName" [(ngModel)]="user.userName" matInput placeholder="" value="">
+                            </mat-form-field>
+                        </div>
+                        <div class="login-matinput">
+                                <mat-form-field class="full-width">
+                                <input name="password" [(ngModel)]="user.password" matInput type="password" placeholder=""
+                                    value="">
+                              </mat-form-field>
+                        </div>
+
+                        <div class=""> 
+                            <p class="pull-left m-0">
+                                <mat-checkbox name="remember" [(ngModel)]="user.remember">Remenber</mat-checkbox>
+                            </p>
+                            
+                        </div>
+                        <br>
+                        <div>
+                            <button style="width: 100%" type="submit" class="mb-30 mt-10 rounded-btn" mat-raised-button color="primary" [disabled]="frm.invalid">Login</button>
+                        </div>
+                    </form>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
+        <div class="split right">
+        </div>
+    </div>
+
+</div>
+<router-outlet></router-outlet>

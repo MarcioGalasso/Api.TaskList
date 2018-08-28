@@ -1,0 +1,74 @@
+
+<mat-card class="col-md-12 text-center">
+  Task List - Paginado | Filtro Dinamico
+  </mat-card>
+  
+<mat-card class="col-md-12">
+<div class="login-matinput">
+   <form #frm="ngForm" (ngSubmit)="onSubmit(frm)">
+    <div class="row">
+            <mat-form-field  class="col-md-9">
+                    <mat-label>Descricao Task</mat-label>
+                    <input name="Descricao" [(ngModel)]="entidade.descricao" matInput placeholder="" value="">
+            </mat-form-field>
+            <div class="col-md-3">
+                    <button  type="submit" class="margin-top-10px with100 mb-30 mt-10 rounded-btn" mat-raised-button color="primary" [disabled]="frm.invalid">+ Task</button>
+            </div>  
+    </div>
+    </form>
+</div>
+    
+<div class="col-md-12">
+  <ck-paginator [size]="5" 
+              [listRegister]="taskList"
+              [onLoadRegister]="true" 
+              [controller]="'Task'" 
+              [useCache]="true"
+              [filter]= "[
+                          {'type':'text',
+                          'column':'Descricao',
+                          'title':'Descrição',
+                          'condition': '==' 
+                          },
+                          {'type':'selectBox',
+                          'column':'Status',
+                          'title':'Status',
+                          'condition': '==',
+                          'optionList': [{ 'title': 'Concluido','value':'1' },{ 'title': 'Pendente','value':'0' }]
+                          }
+                          
+                         ]"
+              #paginatorGuest>
+   </ck-paginator>
+         
+</div>
+  <div class="row col-md-12">
+          
+      <table class="table p-0">
+          <tr>
+              <th>Descricao</th>
+              
+              <th>Criação</th>
+              <th>Conclusão</th>
+              <th>Concluir Tarefa</th>
+              <th>Remove</th>
+          </tr>
+          
+          <tr *ngFor="let item of taskList; let i = index">
+              <td class="row">
+                  <span class="mt-15">{{item.descricao}}</span></td>
+              
+              <td>{{item.createDateTime |date: 'dd/MM/yyyy'}}</td>
+              <td>{{item.updateDateTime |date: 'dd/MM/yyyy'}}</td>
+              <td >
+                <i (click)="atualizarStatus(item)" class="pointer " [ngClass]="{'glyphicon glyphicon-ok': item.status == 1, 'fa fa-circle-o': item.status == 0 }"></i>
+            </td>
+              <td >
+                <i (click)="removeTask(item)"  class="glyphicon glyphicon-remove pointer" ></i>
+              </td>
+             
+          </tr>
+      </table>
+     
+  </div>
+  </mat-card>

@@ -1,0 +1,21 @@
+<mat-toolbar class="">
+   
+        <span class="example-spacer"></span>
+        <div>
+            <div mat-button class="header-menu">
+                <div class="flex">
+                    <a [matMenuTriggerFor]="menu" class="ml-10 flex">
+                        <img src="https://www.w3schools.com/w3images/avatar6.png" alt="Avatar" class="avatar">
+                        <p class="username">UserName</p>
+                        <i class="arrow-icon material-icons">keyboard_arrow_down</i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </mat-toolbar>
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item (click)="onLogout()">
+            <mat-icon>exit_to_app</mat-icon>
+            <span>Sair</span>
+        </button>
+    </mat-menu>

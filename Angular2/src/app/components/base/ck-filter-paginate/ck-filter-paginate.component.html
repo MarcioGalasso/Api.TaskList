@@ -1,0 +1,23 @@
+
+
+<div class="col-md-12 padding-top-10px">
+<div class='row col-md-12'>
+  
+  <mat-radio-group class="example-radio-group padding-right-10px  " [(ngModel)]="conditionFilter">
+      <mat-radio-button class="example-radio-button padding-right-10px " *ngFor="let season of seasons" [value]="season">
+        {{season.title}}
+      </mat-radio-button>
+  </mat-radio-group>
+      <i (click)="createComponent()" class="material-icons padding-right-10px"> add_circle_outline</i><i class=" padding-right-10px" (click)="createComponent()">Adicionar Filtro</i>
+      <i (click)="search()" class="material-icons padding-right-10px">search</i><i (click)="search()">Buscar</i>
+      
+</div> 
+  
+  <div class="col-md-12">
+    <template #containerItemFilter>
+    </template>
+
+  <div>
+</div>
+ 
+   

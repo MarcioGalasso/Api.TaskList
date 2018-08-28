@@ -1,0 +1,9 @@
+c:\users\check-in\source\repos\TaskList\SharedKernel.Domain\bin\Debug\netcoreapp2.0\SharedKernel.Domain.deps.json
+c:\users\check-in\source\repos\TaskList\SharedKernel.Domain\bin\Debug\netcoreapp2.0\SharedKernel.Domain.dll
+c:\users\check-in\source\repos\TaskList\SharedKernel.Domain\obj\Debug\netcoreapp2.0\SharedKernel.Domain.csproj.CoreCompileInputs.cache
+c:\users\check-in\source\repos\TaskList\SharedKernel.Domain\obj\Debug\netcoreapp2.0\SharedKernel.Domain.AssemblyInfoInputs.cache
+c:\users\check-in\source\repos\TaskList\SharedKernel.Domain\obj\Debug\netcoreapp2.0\SharedKernel.Domain.AssemblyInfo.cs
+c:\users\check-in\source\repos\TaskList\SharedKernel.Domain\bin\Debug\netcoreapp2.0\SharedKernel.Domain.pdb
+c:\users\check-in\source\repos\TaskList\SharedKernel.Domain\obj\Debug\netcoreapp2.0\SharedKernel.Domain.dll
+c:\users\check-in\source\repos\TaskList\SharedKernel.Domain\obj\Debug\netcoreapp2.0\SharedKernel.Domain.pdb
+c:\users\check-in\source\repos\TaskList\SharedKernel.Domain\obj\Debug\netcoreapp2.0\SharedKernel.Domain.csprojResolveAssemblyReference.cache

@@ -1,0 +1,13 @@
+c:\users\check-in\source\repos\TaskList\SharedKernel.EntityFramework\bin\Debug\netcoreapp2.0\SharedKernel.Domain.dll
+c:\users\check-in\source\repos\TaskList\SharedKernel.EntityFramework\obj\Debug\netcoreapp2.0\SharedKernel.EntityFramework.csprojResolveAssemblyReference.cache
+c:\users\check-in\source\repos\TaskList\SharedKernel.EntityFramework\obj\Debug\netcoreapp2.0\SharedKernel.EntityFramework.csproj.CoreCompileInputs.cache
+c:\users\check-in\source\repos\TaskList\SharedKernel.EntityFramework\obj\Debug\netcoreapp2.0\SharedKernel.EntityFramework.AssemblyInfoInputs.cache
+c:\users\check-in\source\repos\TaskList\SharedKernel.EntityFramework\obj\Debug\netcoreapp2.0\SharedKernel.EntityFramework.AssemblyInfo.cs
+c:\users\check-in\source\repos\TaskList\SharedKernel.EntityFramework\bin\Debug\netcoreapp2.0\SharedKernel.EntityFramework.deps.json
+c:\users\check-in\source\repos\TaskList\SharedKernel.EntityFramework\bin\Debug\netcoreapp2.0\SharedKernel.EntityFramework.runtimeconfig.json
+c:\users\check-in\source\repos\TaskList\SharedKernel.EntityFramework\bin\Debug\netcoreapp2.0\SharedKernel.EntityFramework.runtimeconfig.dev.json
+c:\users\check-in\source\repos\TaskList\SharedKernel.EntityFramework\bin\Debug\netcoreapp2.0\SharedKernel.EntityFramework.dll
+c:\users\check-in\source\repos\TaskList\SharedKernel.EntityFramework\bin\Debug\netcoreapp2.0\SharedKernel.EntityFramework.pdb
+c:\users\check-in\source\repos\TaskList\SharedKernel.EntityFramework\bin\Debug\netcoreapp2.0\SharedKernel.Domain.pdb
+c:\users\check-in\source\repos\TaskList\SharedKernel.EntityFramework\obj\Debug\netcoreapp2.0\SharedKernel.EntityFramework.dll
+c:\users\check-in\source\repos\TaskList\SharedKernel.EntityFramework\obj\Debug\netcoreapp2.0\SharedKernel.EntityFramework.pdb

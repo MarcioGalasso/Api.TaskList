@@ -1,0 +1,26 @@
+
+<div class="overflow" id="overflow" [hidden]="hiddenOverflow">
+    
+    </div>
+    <!-- <div *ngIf="useFilter" >
+        <ck-filter-paginate [propertySearch]="filter" (paginateEvent)="searchEmit($event)"></ck-filter-paginate>
+    </div> -->
+    
+    <div class=" row col-md-12">
+        <div class="col-md-11">
+            <mat-paginator [length]="record"
+            [pageSize]="size"
+            [pageSizeOptions] ="[size]"
+            (page) = "paginator($event)"
+            >
+            </mat-paginator>
+        </div>
+        <div class="col-md-1 padding-top-10">  
+                <div *ngIf="useFilter" >
+                     <i  (click)="showF()" id="openSearch" class="material-icons">search</i>  
+                    <div id="conteudo" [hidden]="hiddenFilter">
+                        <ck-filter-paginate [propertySearch]="filter" (paginateEvent)="searchEmit($event)"></ck-filter-paginate>
+                    </div>
+                 </div>
+            </div>
+    </div>
